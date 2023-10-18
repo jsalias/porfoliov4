@@ -85,25 +85,6 @@ function isElementInViewport(el) {
     );
 }
 
-/* document.addEventListener("scroll", function () {
-    const titles = document.querySelectorAll(".title");
-    const underlines = document.querySelectorAll(".underline");
-    
-    for (let i = 0; i < titles.length; i++) {
-        if (isElementInViewport(titles[i])) {
-            setTimeout(() => {
-                titles[i].style.left = "0";
-                titles[i].style.opacity = "1";
-                underlines[i].style.width = "48%";
-            }, 200 + i * 300);
-            
-            setTimeout(() => {
-                titles[i].style.left = "48%";
-                titles[i].style.transform = "translateX(-50%)";
-            }, 200 + i * 300);
-        }
-    }
-}); */
 
 document.addEventListener("scroll", function () {
     const titles = document.querySelectorAll(".title");
@@ -111,10 +92,19 @@ document.addEventListener("scroll", function () {
     
     for (let i = 0; i < titles.length; i++) {
         if (isElementInViewport(titles[i])) {
+            const screenWidth = window.innerWidth; // Obtenemos el ancho de la pantalla
+
+            // Calculamos el valor de ancho en función del ancho de la pantalla
+            let underlineWidth = "48%"; // Valor predeterminado
+            if (screenWidth < 768) {
+                underlineWidth = "20%";
+            } else if (screenWidth < 1024) {
+                underlineWidth = "50%";
+            }
             setTimeout(() => {
                 titles[i].style.left = "0";
                 titles[i].style.opacity = "1";
-                underlines[i].style.width = "48%";
+                underlines[i].style.width = underlineWidth;
             }, 200 + i * 300);
             
             setTimeout(() => {

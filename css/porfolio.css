@@ -1,24 +1,12 @@
-/* .gallery {
-  column-count: 3;
-  column-gap: auto;
-  width: 70%;
-  margin: auto;
-
-
-} */
-
-
-  
- 
 
   .gallery {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: auto;
-    /* Espacio de 200px entre los contenedores */
+   
     background-color: black;
   }
   
@@ -26,9 +14,8 @@
   
   .contenedor-gallery {
     column-count: 3;
-    column-gap: auto;
-    width: 70%;
-    margin: auto;
+   
+    width: 80%;
     opacity: 0;
     transform: translatey(100%);
     transition: opacity 2.5s ease-in-out, transform 1.5s ease-in-out;
@@ -40,7 +27,7 @@
     object-fit: cover;
     transition: scale 350ms ease, opacity 350ms linear;
     margin: auto;
-    padding: 20px;
+    
   
   }
   
@@ -62,7 +49,7 @@
       justify-content: space-between;
       align-items: center;
       width: 80%;
-      height: auto;
+    
       margin: auto;
       /* Espacio de 200px entre los contenedores */
       background-color: black;
@@ -71,9 +58,9 @@
     .contenedor-gallery {
     
       column-count: 3;
-      column-gap: 10px;
-      width: 70%;
-      margin: auto;
+      column-gap: 0;
+      width: 100%;
+      height: auto;
       opacity: 0;
       transform: translatey(100%);
       transition: opacity 2.5s ease-in-out, transform 1.5s ease-in-out;
@@ -81,7 +68,7 @@
     
     .aparecer-gallery {
       opacity: 1;
-      transform: translatey(0%);
+      transform: translatey(10%);
     
     }
 
@@ -91,7 +78,7 @@
       aspect-ratio: 1/1;
       object-fit: cover;
       transition: scale 350ms ease, opacity 350ms linear;
-      padding: 10px;
+    
       margin: auto;
    
       

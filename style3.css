@@ -8,7 +8,7 @@ html,
 body {
   
   width: 100%;
-  height: auto;
+  height: 100%;
  
 
 }
@@ -44,7 +44,7 @@ a:hover {
 }
 
 .box {
- width: 40%;
+ 
   overflow: visible;
   text-align: center;
   margin-top: 30px;
@@ -88,14 +88,23 @@ transition: all 0.3s ease;
 }
 #animatedTitle{
   margin: auto;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-left: 300px;
 }
-#animatedTitle3,
-#animatedTitle4 {
-  margin-top: 30px;
-
+#animatedTitle1{
+  margin-top: 60px;
 }
+ #animatedTitle3{
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+#animatedTitle2{
+  margin-top: 50px;
+}
+#animatedTitle4 {
+  margin-top: 80px;
+
+} 
 
 /*porfolio*/
 .container3 {
@@ -130,7 +139,7 @@ transition: all 0.3s ease;
   .title {
     font-size: 34px;
     position: relative;
-    left: -100%;
+    left: 100%;
     opacity: 0;
     transition: all .5s ease;
     color: crimson;
@@ -144,22 +153,33 @@ transition: all 0.3s ease;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 0px;
+    width: 0 ;
     height: 2px;
     background-color:crimson;
     margin: auto; /* Centro horizontalmente */
     transition: all 0.3s ease;
     }
-    #animatedTitle, #animatedTitle2{
+
+    .box {
+      width: 100%;
+      overflow: visible;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 80px;
+      height: auto;
+    }
+    
+    #animatedTitle{
       margin: auto;
       margin-top: 60px;
      
     }
-    #animatedTitle3, 
-   
+     #animatedTitle1,#animatedTitle2,#animatedTitle3,
     #animatedTitle4 {
+      width: 100%;
       margin: auto;
       margin-top: 30px;
+      
     
     }
     
