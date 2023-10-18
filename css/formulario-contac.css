@@ -103,6 +103,9 @@
     align-items: center;
     color: white;
     border-radius: 5px;
+    margin: auto;
+    margin-bottom: 40px;
+
   
   }
   
@@ -156,7 +159,6 @@
       flex-direction: row;
       border: solid 1px white;
       margin: auto;
-     
       margin-left: 210px;
       margin-bottom: 40px;
       font-size: 14px;

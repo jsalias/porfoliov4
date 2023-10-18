@@ -96,11 +96,9 @@ document.addEventListener("scroll", function () {
 
             // Calculamos el valor de ancho en función del ancho de la pantalla
             let underlineWidth = "48%"; // Valor predeterminado
-            if (screenWidth < 768) {
-                underlineWidth = "20%";
-            } else if (screenWidth < 1024) {
-                underlineWidth = "50%";
-            }
+            if (screenWidth > 600) {
+                underlineWidth = "18%";
+            } 
             setTimeout(() => {
                 titles[i].style.left = "0";
                 titles[i].style.opacity = "1";
