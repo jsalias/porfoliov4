@@ -18,7 +18,7 @@
     width: 80%;
     opacity: 0;
     transform: translatey(100%);
-    transition: opacity 2.5s ease-in-out, transform 1.5s ease-in-out;
+    transition: opacity 1.s ease-in-out, transform 1.s ease-in-out;
   }
   .imagenes-porfolio {
 
@@ -49,8 +49,11 @@
       justify-content: space-between;
       align-items: center;
       width: 80%;
+      height: auto;
     
       margin: auto;
+      margin-bottom: 100px;
+      margin-top: -50px;
       /* Espacio de 200px entre los contenedores */
       background-color: black;
     }

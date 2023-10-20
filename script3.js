@@ -93,7 +93,7 @@ function isElementInViewport(el) {
     for (let i = 0; i < titles.length; i++) {
         if (isElementInViewport(titles[i])) {
             const screenWidth = window.innerWidth; // Obtenemos el ancho de la pantalla
-           
+            console.log(screenWidth);
             // Calculamos el valor de ancho en función del ancho de la pantalla
             let underlineWidth = "48%"; // Valor predeterminado
             if (screenWidth <= 825) {
@@ -119,7 +119,7 @@ function isElementInViewport(el) {
             
             setTimeout(() => {
                 titles[i].style.left = "48%";
-                titles[i].style.transform = "translateX(-50%)";
+                titles[i].style.transform = "translateX(0%)";
             }, 200 + i * 200);
         }
     }
