@@ -98,6 +98,10 @@ function isElementInViewport(el) {
             let underlineWidth = "48%"; // Valor predeterminado
             if (screenWidth <= 825) {
                 underlineWidth = "18%";
+                setTimeout(() => {
+                    titles[i].style.left = "48%";
+                    titles[i].style.transform = "translateX(0%)";
+                }, 200 + i * 200);
             } 
 
             if(screenWidth <= 825){
@@ -113,14 +117,15 @@ function isElementInViewport(el) {
                     titles[i].style.opacity = "1";
                     underlines[i].style.width = underlineWidth;
                 }, 200 + i * 200);
+                setTimeout(() => {
+                    titles[i].style.left = "48%";
+                    titles[i].style.transform = "translateX(-50%)";
+                }, 200 + i * 200);
             }
 
           
             
-            setTimeout(() => {
-                titles[i].style.left = "48%";
-                titles[i].style.transform = "translateX(0%)";
-            }, 200 + i * 200);
+            
         }
     }
 });  
@@ -231,7 +236,7 @@ function idioma(){
        id=false;
     }
     else{
-        location.href="index3.html";
+        location.href="index.html";
       
     }
 }
