@@ -480,7 +480,7 @@
   .modal {
     display: none;
     background-color: white;
-    z-index: 999;
+   
     width: 90%;
     height: auto;
   
