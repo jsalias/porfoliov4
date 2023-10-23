@@ -234,6 +234,7 @@ function idioma(){
     if(id== true){
         location.href="index-esp.html";
        id=false;
+       
     }
     else{
         location.href="index.html";
