@@ -485,17 +485,18 @@
     justify-content: center;
     align-items: center;
     margin-top: -500px;
+    height: 550px;
   
   }
   
   .modal-contenido {
-    height: 660px;
+    height: 550px;
     background-color: #fff;
     padding: 0px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     opacity: 1;
-    margin-top: -500px;
+    margin-top: -350px;
     
   }
   
