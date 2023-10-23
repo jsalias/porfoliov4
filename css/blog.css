@@ -143,18 +143,18 @@
   .modal {
     display: none;
     position: fixed;
-    bottom: 150px;
+    bottom: 250px;
     background-color: white;
     z-index: 999;
-    width: 90%;
-    height: 400px;
+    width: 50%;
+    height: 200px;
     justify-content: center;
     align-items: center;
     margin: auto;
   }
   
   .modal-contenido {
-    height: 580px;
+    height: auto;
     background-color: #fff;
     padding: 0px;
     border-radius: 5px;
