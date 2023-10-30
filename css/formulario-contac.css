@@ -81,7 +81,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 25px;
+    height: 35px;
     color: white;
     background-color: black;
     margin-top: -150px;
@@ -89,6 +89,7 @@
  
   
   }
+
   
   .boton2 {
     display: flex;
@@ -97,7 +98,7 @@
     font-size: 16px;
     background-color: crimson;
     width: 15%;
-    height: 40px;
+    height: 60px;
     justify-content: center;
     align-items: center;
     color: white;
