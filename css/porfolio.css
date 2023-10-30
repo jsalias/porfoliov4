@@ -158,7 +158,7 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      width: 80%;
+      width: 90%;
       height: auto;
       margin: auto;
     
@@ -229,7 +229,7 @@
     }
     .img-content .titulo-porfolio {
       color:black;
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 600;
       top: 50%;
       left: 50%;
@@ -245,7 +245,7 @@
     }
     
     .img-content a button{
-      font-size: 10px;
+      font-size: 9px;
       width: 100%;
       height: 30px;
       border: px solid crimson;
