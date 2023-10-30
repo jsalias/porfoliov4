@@ -94,19 +94,16 @@
     display: flex;
     flex-direction: row;
     border: solid 1px white;
-    top: 0;
-    font-size: 14px;
+    font-size: 16px;
     background-color: crimson;
     width: 15%;
-    height: 50px;
+    height: 40px;
     justify-content: center;
     align-items: center;
     color: white;
     border-radius: 5px;
     margin: auto;
-    margin-bottom: 40px;
-
-  
+    
   }
   
   .boton2:hover {
