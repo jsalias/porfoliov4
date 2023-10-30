@@ -62,8 +62,12 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    margin-top: 10px;
     position: relative;
   
+  }
+  .imagen1{
+    margin-top: 0;
   }
   
   .img-content {
