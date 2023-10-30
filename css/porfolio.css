@@ -7,6 +7,7 @@
     width: 80%;
     height: auto;
     background-color: black;
+   
   }
   .contenedor-gallery {
     column-count: 3;
@@ -14,7 +15,7 @@
     opacity: 0;
     transform: translatey(100%);
     transition: opacity 1.s ease-in-out, transform 1.s ease-in-out;
-    
+   
   }
 
   .imagenes-porfolio {
@@ -22,7 +23,7 @@
     aspect-ratio: 1/1;
     object-fit: cover;
     transition: scale 350ms ease, opacity 350ms linear;
-  
+    margin-top: 10px;
    
   }
   
@@ -33,7 +34,7 @@
   }
  
   .gallery:has(.img-container:hover) .img-container:not(:hover) {
-    scale: .95;
+    scale: .9;
     opacity: .7;
   }
 
